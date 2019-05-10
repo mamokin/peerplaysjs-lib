@@ -8,6 +8,7 @@
   },
   "scripts": {
     "init": "npm install commitizen -g && npm i",
+    "docs:gen": "esdoc",
     "commit": "git-cz",
     "pre-release": "npm run release -- --prerelease rc",
     "release": "standard-version",
